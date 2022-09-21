@@ -14,6 +14,8 @@ Design a statistical study to compare vehicle performance of the MechaCar vehicl
 ## Linear Regression to Predict MPG
 In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
+![Deliverable 1](https://user-images.githubusercontent.com/103234661/191489307-f0d9c98d-6e35-4714-83e4-48283bccb116.png)
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 Is the slope of the linear model considered to be zero? Why or why not?
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
@@ -22,10 +24,14 @@ Does this linear model predict mpg of MechaCar prototypes effectively? Why or wh
 ## Summary Statistics on Suspension Coils
 In your README, create a subheading ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
+![Deliverable 2](https://user-images.githubusercontent.com/103234661/191489339-1f1eddf9-0ff8-4a6b-a572-7aa584a48bb3.png)
+
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
 ## T-Tests on Suspension Coils
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
+
+![Deliverable 3](https://user-images.githubusercontent.com/103234661/191489348-3671ae14-5d3b-4c30-88db-68e8de2267e9.png)
 
 ## Study Design: MechaCar vs Competition
 You will earn a perfect score for Deliverable 4 by completing all requirements below:
