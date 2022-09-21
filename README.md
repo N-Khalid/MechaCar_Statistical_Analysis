@@ -17,8 +17,20 @@ In your README, create a subheading, ## Linear Regression to Predict MPG, and wr
 ![Deliverable 1](https://user-images.githubusercontent.com/103234661/191489307-f0d9c98d-6e35-4714-83e4-48283bccb116.png)
 
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
+
+Based on our analysis, the variables/coefficients that provided a non-random amount of variance are:
+  1. Vehicle length
+  2. Ground clearance
+  3. Intercept
+
+The significance level is 0.05 (5%) and the p-value is from this analysis is 5.35e-11.
+
 Is the slope of the linear model considered to be zero? Why or why not?
+
+The slope of the linear model is **not** zero. We can determine the slope is non-zero because the model's p-value (5.35e-11) is far smaller than the significant level (0.05) which means that we can reject the null hypothesis.
+
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
 
 
 ## Summary Statistics on Suspension Coils
