@@ -31,19 +31,31 @@ The slope of the linear model is **not** zero. We can determine the slope is non
 
 Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-
+Yes the linear model predicts mpg of MechaCar prototypes effectively. We can determine this based on r-squared value (0.7149).
 
 ## Summary Statistics on Suspension Coils
-In your README, create a subheading ## Summary Statistics on Suspension Coils, and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
 
 ![Deliverable 2](https://user-images.githubusercontent.com/103234661/191489339-1f1eddf9-0ff8-4a6b-a572-7aa584a48bb3.png)
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 
+Looking at the variance to determine which lots are within specification, we can see that lots 1 and 2 meet design specifications. They are both under 100 PSI. Lot 3 is larger than the 100 PSI variance so it does not meet specifications.
+
 ## T-Tests on Suspension Coils
 In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
-![Deliverable 3](https://user-images.githubusercontent.com/103234661/191489348-3671ae14-5d3b-4c30-88db-68e8de2267e9.png)
+![Deliverable 3-1](https://user-images.githubusercontent.com/103234661/191892662-eb7f39ed-5a2c-45fc-af19-2d379f3b567c.png)
+
+![Deliverable 3-2](https://user-images.githubusercontent.com/103234661/191892664-c00235c5-1cdb-46e2-93ba-ae32d28c0c18.png)
+
+Total - There is no significant variation. p-value = 0.06. No signifcant difference, we fail to reject the null hypothesis. 
+
+Lot 1 - There is no significant variation. p-value = 1. No signifcant difference, we fail to reject the null hypothesis. 
+
+Lot 2 - There is no significant variation. p-value = .607. No signifcant difference, we fail to reject the null hypothesis. 
+
+Lot 3 - There *is* significant variation. p-value = 0.417. There is significvant difference so the null hypothesis is rejected.
+
 
 ## Study Design: MechaCar vs Competition
 You will earn a perfect score for Deliverable 4 by completing all requirements below:
