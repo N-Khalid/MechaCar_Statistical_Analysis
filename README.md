@@ -12,7 +12,6 @@ Run t-tests to determine if the manufacturing lots are statistically different f
 Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
 
 ## Linear Regression to Predict MPG
-In your README, create a subheading, ## Linear Regression to Predict MPG, and write a short summary using a screenshot of the output from the linear regression, and address the following questions:
 
 ![Deliverable 1](https://user-images.githubusercontent.com/103234661/191489307-f0d9c98d-6e35-4714-83e4-48283bccb116.png)
 
@@ -42,7 +41,6 @@ The design specifications for the MechaCar suspension coils dictate that the var
 Looking at the variance to determine which lots are within specification, we can see that lots 1 and 2 meet design specifications. They are both under 100 PSI. Lot 3 is larger than the 100 PSI variance so it does not meet specifications.
 
 ## T-Tests on Suspension Coils
-In your README, create a subheading ## T-Tests on Suspension Coils, then briefly summarize your interpretation and findings for the t-test results. Include screenshots of the t-test to support your summary.
 
 ![Deliverable 3-1](https://user-images.githubusercontent.com/103234661/191892662-eb7f39ed-5a2c-45fc-af19-2d379f3b567c.png)
 
