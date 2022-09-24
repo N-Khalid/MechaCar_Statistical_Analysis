@@ -58,11 +58,19 @@ Lot 3 - There *is* significant variation. p-value = 0.417. There is significvant
 
 
 ## Study Design: MechaCar vs Competition
-You will earn a perfect score for Deliverable 4 by completing all requirements below:
 
-The statistical study design has the following:
-A metric to be tested is mentioned (5 pt)
-A null hypothesis or an alternative hypothesis is described (5 pt)
-A statistical test is described to test the hypothesis (5 pt)
-The data for the statistical test is described (5 pt)
+**What metric or metrics are you going to test?**
 
+The metric to be tested will be horsepower. Horsepower is used to indicate the power produced by a vehicles engine.
+
+**What is the null hypothesis or alternative hypothesis?**
+
+The null hypothesis is there is not any significant difference between MechaCar and other vehicle's horsepower. The alternate hypothesis is there is a significant difference between MechaCar and other vehicle's horsepower. 
+
+**What statistical test would you use to test the hypothesis? And why?**
+
+I would use a t-test to test the hypothesis because we're comparing the averages of two samples (MechaCar vs competitor vehicles)
+
+**What data is needed to run the statistical test?**
+
+We will need vehicle information such as engine type, engine torque and revolutions per minute (RPM)
